@@ -1,0 +1,44 @@
+name: kojalearn
+description: Aplikasi belajar bahasa Korea dan Jepang yang interaktif dan menyenangkan.
+version: 1.0.0+1
+
+# ⬇️ INI BAGIAN YANG HARUS ADA — JANGAN DIHAPUS!
+environment:
+  sdk: ^3.8.0 # Sesuaikan dengan versi Dart-mu (dart --version)
+  flutter: ">=3.32.8" # Sesuaikan dengan versi Flutter-mu (flutter --version)
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.1
+  audioplayers: ^5.2.0
+  shared_preferences: ^2.2.2
+  flutter_svg: ^2.0.9
+  lottie: ^2.7.0
+  confetti: ^0.8.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/audios/
+    - assets/lottie/
+  # fonts:
+  #   - family: Nunito
+  #     fonts:
+  #       - asset: assets/fonts/Nunito-Regular.ttf
+  #       - asset: assets/fonts/Nunito-Bold.ttf
+  #         weight: 700
+  #   - family: NanumMyeongjo
+  #     fonts:
+  #       - asset: assets/fonts/NanumMyeongjo-Regular.ttf
+  #   - family: NotoSansJP
+  #     fonts:
+  #       - asset: assets/fonts/NotoSansJP-Regular.otf
+  #       - asset: assets/fonts/NotoSansJP-Bold.otf
+  #         weight: 700
